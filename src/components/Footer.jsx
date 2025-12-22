@@ -82,13 +82,13 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className={`flex-1 px-4 py-2 rounded-l-lg border focus:outline-none focus:ring-2 focus:ring-[#F97316] ${
+                  className={`flex-1 px-4 py-2 rounded-l-lg border focus:outline-none focus:ring-2 focus:ring-[#ef5a3c] ${
                     isDarkMode
                       ? 'bg-neutral-800 border-neutral-600 text-white placeholder-neutral-500'
                       : 'bg-neutral-800 border-neutral-600 text-white placeholder-neutral-400'
                   }`}
                 />
-                <button className="bg-[#F97316] hover:bg-[#EA580C] text-white px-6 py-2 rounded-r-lg transition-colors">
+                <button className="bg-[#EE593B] hover:bg-[#EA580C] text-white px-6 py-2 rounded-r-lg transition-colors">
                   Subscribe
                 </button>
               </div>

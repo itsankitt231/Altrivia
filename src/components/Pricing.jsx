@@ -82,7 +82,7 @@ export default function Pricing() {
                 ? 'bg-neutral-800 border-neutral-700 hover:shadow-neutral-700/50'
                 : 'bg-gradient-to-br from-white to-gray-50 border-gray-200 hover:shadow-lg'
             } ${
-              plan.popular ? 'ring-2 ring-[#F97316] scale-105' : 'hover:scale-105'
+              plan.popular ? 'ring-2 ring-[#ef5a3c] scale-105' : 'hover:scale-105'
             } ${
               isVisible ? `animate-delay-${(index + 1) * 100} animate-scale-in` : ''
             }`}
@@ -91,7 +91,7 @@ export default function Pricing() {
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                 <span className={`px-4 py-1 text-xs font-semibold rounded-full ${
                   plan.popular
-                    ? 'bg-[#F97316] text-white'
+                    ? 'bg-[#ef5a3c] text-white'
                     : 'bg-neutral-800 text-white'
                 }`}>
                   {plan.badge}
@@ -102,7 +102,7 @@ export default function Pricing() {
             <div className="text-center mb-6">
               <h3 className={`text-2xl font-bold mb-2 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{plan.name}</h3>
               <div className="flex items-center justify-center space-x-2 mb-2">
-                <span className="text-4xl font-bold text-[#F97316]">{plan.price}</span>
+                <span className="text-4xl font-bold text-[#ef5a3c]">{plan.price}</span>
                 {plan.originalPrice && (
                   <span className={`text-lg line-through ${isDarkMode ? 'text-neutral-500' : 'text-neutral-400'}`}>{plan.originalPrice}</span>
                 )}
@@ -122,7 +122,7 @@ export default function Pricing() {
             <button
               className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
                   plan.popular
-                    ? 'bg-[#F97316] hover:bg-[#EA580C] text-white'
+                    ? 'bg-[#EE593B] hover:bg-[#EA580C] text-white'
                     : 'bg-neutral-800 hover:bg-neutral-900 text-white'
               }`}
             >
@@ -144,9 +144,9 @@ export default function Pricing() {
       </div>
 
       <div className="text-center mt-12">
-        <div className={`rounded-xl p-8 max-w-4xl mx-auto ${isDarkMode ? 'bg-[#F97316]/20' : 'bg-orange-100'}`}>
+        <div className={`rounded-xl p-8 max-w-4xl mx-auto ${isDarkMode ? 'bg-[#ef5a3c]/20' : 'bg-orange-100'}`}>
           <div className="flex items-center justify-center mb-4">
-            <Zap className="w-8 h-8 text-[#F97316] mr-3" />
+            <Zap className="w-8 h-8 text-[#ef5a3c] mr-3" />
             <h3 className={`text-2xl font-bold ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>Money-Back Guarantee</h3>
           </div>
           <p className={`mb-6 ${isDarkMode ? 'text-neutral-300' : 'text-neutral-600'}`}>

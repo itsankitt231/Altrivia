@@ -143,7 +143,7 @@ export default function Curriculum() {
             >
               {/* Timeline dot */}
               <motion.div
-                className={`flex-shrink-0 w-16 h-16 ${isDarkMode ? 'bg-neutral-800' : 'bg-white'} border-4 border-[#F97316] rounded-full flex items-center justify-center shadow-lg z-10 transition-colors duration-300`}
+                className={`flex-shrink-0 w-16 h-16 ${isDarkMode ? 'bg-neutral-800' : 'bg-white'} border-4 border-[#ef5a3c] rounded-full flex items-center justify-center shadow-lg z-10 transition-colors duration-300`}
                 whileHover={{ scale: 1.1, rotate: 10 }}
                 transition={{ duration: 0.3 }}
               >
@@ -155,7 +155,7 @@ export default function Curriculum() {
                     delay: index * 0.5
                   }}
                 >
-                  <item.icon className="w-6 h-6 text-[#F97316]" />
+                  <item.icon className="w-6 h-6 text-[#ef5a3c]" />
                 </motion.div>
               </motion.div>
 
@@ -176,7 +176,7 @@ export default function Curriculum() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
                     <h3 className={`text-xl font-semibold mb-1 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{item.title}</h3>
-                    <p className="text-[#F97316] font-medium">{item.week}</p>
+                    <p className="text-[#ef5a3c] font-medium">{item.week}</p>
                   </div>
                   {index < curriculumItems.length - 1 && (
                     <motion.div

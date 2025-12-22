@@ -10,7 +10,7 @@ export default {
       colors: {
         // Premium GenAI Color Palette
         background: '#020617',  // slate-950
-        primary: '#F97316',     // orange-500
+        primary: '#EF5A3C',     // custom orange
         accent: '#F59E0B',      // amber-500 (complements orange)
         success: '#22C55E',     // green-500
         'text-main': '#E5E7EB', // gray-200

@@ -11,7 +11,7 @@ export default function Nav() {
         </div>
       </div>
       <div>
-        <button className="bg-[#F97316] hover:bg-[#EA580C] text-white px-6 py-3 rounded transition-colors">Apply</button>
+        <button className="bg-[#EE593B] hover:bg-primary/80 text-white px-6 py-3 rounded transition-colors">Apply</button>
       </div>
     </nav>
   );

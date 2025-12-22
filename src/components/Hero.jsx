@@ -69,7 +69,7 @@ export default function Hero() {
           variants={itemVariants}
           className={`text-4xl md:text-6xl font-extrabold leading-tight ${isDarkMode ? 'text-text-main' : 'text-slate-900'}`}
         >
-          Master <span className="text-[#F97316]">Generative AI</span> Development
+          Master <span className="text-[#EF5A3C]">Generative AI</span> Development
         </motion.h1>
         
         <motion.p 
@@ -85,7 +85,7 @@ export default function Hero() {
         >
           <motion.a 
             href="#apply" 
-            className="bg-[#F97316] hover:bg-[#EA580C] px-8 py-4 rounded-lg font-semibold transition-all shadow-lg shadow-[#F97316]/50 text-white text-lg"
+            className="bg-[#EE593B] hover:bg-[#c43e25] px-8 py-4 rounded-lg font-semibold transition-all shadow-lg shadow-[#EE593B]/50 text-white text-lg"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
             animate={{

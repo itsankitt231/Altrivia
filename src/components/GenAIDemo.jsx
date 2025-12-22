@@ -24,7 +24,7 @@ export default function GenAIDemo() {
           <h2 className={`text-4xl md:text-5xl font-semibold leading-tight ${
             isDarkMode ? 'text-text-main' : 'text-slate-900'
           }`}>
-            Learn Generative AI by <span className="text-[#F97316]">Doing</span>
+            Learn Generative AI by <span className="text-[#ef5a3c]">Doing</span>
           </h2>
           <p className={`mt-5 text-lg ${
             isDarkMode ? 'text-text-muted' : 'text-slate-600'
@@ -42,7 +42,7 @@ export default function GenAIDemo() {
               ? 'border-white/10 bg-gradient-to-br from-slate-900 to-slate-950'
               : 'border-slate-200 bg-gradient-to-br from-white to-slate-50'
           }`}>
-            <span className="text-xs uppercase tracking-widest text-[#F97316] text-gray-600">
+            <span className="text-xs uppercase tracking-widest text-[#ef5a3c] text-gray-600">
               Prompt
             </span>
 
@@ -88,10 +88,10 @@ export default function GenAIDemo() {
           <p className={`text-lg ${
             isDarkMode ? 'text-text-muted' : 'text-slate-600'
           }`}>
-            You'll build prompts like this by <span className="text-[#F97316]">Week 2</span>
+            You'll build prompts like this by <span className="text-[#ef5a3c]">Week 2</span>
           </p>
 
-          <button className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#F97316] hover:bg-[#EA580C] text-white px-8 py-4 text-base font-medium transition-all duration-300 shadow-lg shadow-[#F97316]/30">
+          <button className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#EE593B] hover:bg-[#EA580C] text-white px-8 py-4 text-base font-medium transition-all duration-300 shadow-lg shadow-[#ef5a3c]/30">
             View Curriculum →
           </button>
         </div>

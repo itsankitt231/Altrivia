@@ -7,11 +7,11 @@ export default function Feature({ title, children }) {
   const getIcon = () => {
     switch (title) {
       case "Mentorship":
-        return <Users className="w-8 h-8 text-[#F97316] mb-4 flex justify-center items-center" />;
+        return <Users className="w-8 h-8 text-[#ef5a3c] mb-4 flex justify-center items-center" />;
       case "Project-driven":
-        return <Code className="w-8 h-8 text-[#F97316] mb-4" />;
+        return <Code className="w-8 h-8 text-[#ef5a3c] mb-4" />;
       case "Hiring support":
-        return <Briefcase className="w-8 h-8 text-[#F97316] mb-4" />;
+        return <Briefcase className="w-8 h-8 text-[#ef5a3c] mb-4" />;
       default:
         return null;
     }

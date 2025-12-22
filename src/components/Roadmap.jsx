@@ -55,7 +55,7 @@ export default function Roadmap() {
           <h2 className={`text-4xl md:text-5xl font-semibold leading-tight ${
             isDarkMode ? 'text-text-main' : 'text-slate-900'
           }`}>
-            What You'll Build in This <span className="text-[#F97316]">Generative AI Course</span>
+            What You'll Build in This <span className="text-[#EF5A3C]">Generative AI Course</span>
           </h2>
           <p className={`mt-5 text-lg ${
             isDarkMode ? 'text-text-muted' : 'text-slate-600'
@@ -79,18 +79,18 @@ export default function Roadmap() {
             >
               <div className={`relative border rounded-2xl p-6 h-full transition-all duration-500 ${
                 isDarkMode
-                  ? 'bg-gradient-to-br from-slate-900 to-slate-950 border-white/10 group-hover:border-primary/50 group-hover:shadow-2xl group-hover:shadow-primary/20'
-                  : 'bg-gradient-to-br from-white to-slate-50 border-slate-200 group-hover:border-primary/50 group-hover:shadow-xl group-hover:shadow-primary/20'
+                  ? 'bg-gradient-to-br from-slate-900 to-slate-950 border-white/10 group-hover:border-primary/50 group-hover:shadow-2xl group-hover:shadow-[#EE593B]/20'
+                  : 'bg-gradient-to-br from-white to-slate-50 border-slate-200 group-hover:border-primary/50 group-hover:shadow-xl group-hover:shadow-[#EE593B]/20'
               }`}>
                 {/* Week Badge */}
-                <div className="absolute -top-3 left-6 bg-[#F97316] text-gray-600 px-3 py-1 rounded-full text-sm font-medium shadow-lg">
+                <div className="absolute -top-3 left-6 bg-[#ef5a3c] text-gray-600 px-3 py-1 rounded-full text-sm font-medium shadow-lg">
                   {item.week}
                 </div>
 
                 {/* Content */}
                 <div className="mt-4">
                   <h3 className={`text-xl font-semibold mb-3 transition-colors ${
-                    isDarkMode ? 'text-text-main group-hover:text-[#F97316]' : 'text-slate-900 group-hover:text-[#F97316]'
+                    isDarkMode ? 'text-text-main group-hover:text-[#ef5a3c]' : 'text-slate-900 group-hover:text-[#ef5a3c]'
                   }`}>
                     {item.title}
                   </h3>
@@ -101,7 +101,7 @@ export default function Roadmap() {
                     {item.description}
                   </p>
 
-                  <div className="inline-block bg-[#F97316]/10 text-[#F97316] px-3 py-1 rounded-full text-xs font-medium">
+                  <div className="inline-block bg-[#ef5a3c]/10 text-[#ef5a3c] px-3 py-1 rounded-full text-xs font-medium">
                     {item.buildType}
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function Roadmap() {
           <h3 className={`text-3xl font-semibold ${
             isDarkMode ? 'text-text-main' : 'text-slate-900'
           }`}>
-            By the end, you'll have a <span className="text-[#F97316]">portfolio-ready GenAI project</span>
+            By the end, you'll have a <span className="text-[#ef5a3c]">portfolio-ready GenAI project</span>
           </h3>
 
           <p className={`mt-4 text-lg max-w-2xl mx-auto ${
@@ -127,7 +127,7 @@ export default function Roadmap() {
             Not certificates. Not theory. Real applications you can show to recruiters or clients.
           </p>
 
-          <button className="mt-8 rounded-full bg-[#F97316] hover:bg-[#EA580C] text-white px-10 py-4 text-lg font-medium transition-all shadow-xl shadow-[#F97316]/30">
+          <button className="mt-8 rounded-full bg-[#EE593B] hover:bg-[#EA580C] text-white px-10 py-4 text-lg font-medium transition-all shadow-xl shadow-[#ef5a3c]/30">
             Enroll Now
           </button>
         </div>

@@ -174,7 +174,7 @@ export default function Mentors() {
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                     <div className="mb-2 sm:mb-0">
                       <h3 className={`text-xl font-semibold ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{mentor.name}</h3>
-                      <p className="text-[#F97316] font-medium">{mentor.role}</p>
+                      <p className="text-[#EE593B] font-medium">{mentor.role}</p>
                       <p className={`text-sm ${isDarkMode ? 'text-neutral-400' : 'text-neutral-600'}`}>{mentor.company}</p>
                     </div>
                     <motion.div
@@ -213,7 +213,7 @@ export default function Mentors() {
                     {mentor.expertise.map((skill, skillIndex) => (
                       <motion.span
                         key={skillIndex}
-                        className={`px-3 py-1 text-xs font-medium rounded-full ${isDarkMode ? 'bg-[#F97316]/30 text-[#F59E0B]' : 'bg-orange-100 text-[#F97316]'}`}
+                        className={`px-3 py-1 text-xs font-medium rounded-full ${isDarkMode ? 'bg-[#EE593B]/30 text-[#F59E0B]' : 'bg-orange-100 text-[#EE593B]'}`}
                         whileHover={{ scale: 1.05, y: -2 }}
                         transition={{ duration: 0.2 }}
                       >
@@ -266,7 +266,7 @@ export default function Mentors() {
                   delay: stat.delay
                 }}
               >
-                <stat.icon className="w-4 h-4 mr-2 text-[#F97316]" />
+                <stat.icon className="w-4 h-4 mr-2 text-[#EE593B]" />
               </motion.div>
               {stat.text}
             </motion.div>
