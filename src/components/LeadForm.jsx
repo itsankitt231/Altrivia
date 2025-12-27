@@ -57,7 +57,7 @@ export default function LeadForm({ onSuccess }) {
       </label>
 
       <div className="mt-6 flex items-center gap-4">
-        <button className="bg-[#F97316] hover:bg-[#EA580C] text-white px-5 py-2 rounded-md transition-colors" disabled={loading}>{loading ? 'Sending...' : 'Submit'}</button>
+        <button className="bg-[#EE593B] hover:bg-[#EA580C] text-white px-5 py-2 rounded-md transition-colors" disabled={loading}>{loading ? 'Sending...' : 'Submit'}</button>
         <p className={`text-sm ${isDarkMode ? 'text-neutral-400' : 'text-neutral-500'}`}>We'll contact you with next steps.</p>
       </div>
     </form>

@@ -11,6 +11,8 @@ import Mentors from "./components/Mentors";
 import Roadmap from "./components/Roadmap";
 import Curriculum from "./components/Curriculum";
 import Pricing from "./components/Pricing";
+import Creation from "./components/Creation";
+import Testimonials from "./components/Testimonials";
 import LeadForm from "./components/LeadForm";
 import Footer from "./components/Footer";
 
@@ -31,8 +33,10 @@ function AppContent() {
           <Programs />
           <Mentors />
           <Roadmap />
+          <Creation />
           <Curriculum />
           <Pricing />
+          <Testimonials />
           <section
             ref={ref}
             className={`mt-12 transition-all duration-1000 ${
