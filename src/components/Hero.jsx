@@ -57,7 +57,7 @@ export default function Hero() {
     <motion.header 
       ref={ref}
       style={{ opacity, scale }}
-      className={`${isDarkMode ? 'bg-background text-white' : 'bg-gradient-to-br from-slate-50 to-blue-50 text-slate-900'} py-24 transition-colors duration-300`}
+      className={`${isDarkMode ? 'bg-background text-white' : 'bg-white text-slate-900'} py-24 transition-colors duration-300`}
     >
       <motion.div 
         className="max-w-4xl mx-auto text-center px-6"
@@ -67,7 +67,7 @@ export default function Hero() {
       >
         <motion.h1 
           variants={itemVariants}
-          className={`text-4xl md:text-6xl font-extrabold leading-tight ${isDarkMode ? 'text-text-main' : 'text-slate-900'}`}
+          className={`text-4xl md:text-6xl font-semibold text-[#242424]leading-tight ${isDarkMode ? 'text-text-main' : 'text-slate-900'}`}
         >
           Master <span className="text-[#EF5A3C]">Generative AI</span> Development
         </motion.h1>

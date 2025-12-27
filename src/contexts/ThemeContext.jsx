@@ -11,18 +11,18 @@ export const useTheme = () => {
 };
 
 export const ThemeProvider = ({ children }) => {
-  // Always use dark mode as default
-  const [isDarkMode] = useState(true);
+  // Use light mode as default
+  const [isDarkMode] = useState(false);
 
   useEffect(() => {
     // Update document class for Tailwind dark mode
     const html = document.documentElement;
 
-    // Force add dark class
-    html.classList.add('dark');
+    // Remove dark class for light mode
+    html.classList.remove('dark');
 
     // Debug logging
-    console.log('Theme set to dark mode');
+    console.log('Theme set to light mode');
     console.log('HTML element:', html);
     console.log('HTML classes:', html.className);
     console.log('Has dark class:', html.classList.contains('dark'));

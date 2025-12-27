@@ -20,7 +20,7 @@ function AppContent() {
   const [ref, isVisible] = useScrollAnimation(0.1);
 
   return (
-    <div className={`min-h-screen ${isDarkMode ? 'bg-neutral-950' : 'bg-neutral-900'} text-white transition-colors duration-300`}>
+    <div className={`min-h-screen ${isDarkMode ? 'bg-neutral-950 text-white' : 'bg-white text-slate-900'} transition-colors duration-300`}>
       <Nav />
       <Hero />
       <InfiniteLogoScroll/>

@@ -44,7 +44,7 @@ export default function Roadmap() {
       className={`w-full relative py-32 transition-all duration-1000 ${
         isDarkMode
           ? 'bg-slate-950'
-          : 'bg-gradient-to-br from-slate-50 to-indigo-50'
+          : 'bg-white'
       } ${
         isVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'
       }`}
