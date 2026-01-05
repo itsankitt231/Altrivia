@@ -63,32 +63,25 @@ export default function Curriculum() {
 
   const curriculumItems = [
     {
-      week: "Week 1-2",
-      title: "Programming Foundations",
-      description: "Master JavaScript, React, and modern development tools",
+      week: "Module 1",
+      title: "Python for Data Science & Core Concepts",
+      description: "Master ML Workflows, NumPy, Pandas and Foundational ML Concepts",
       icon: Code,
-      skills: ["JavaScript ES6+", "React Fundamentals", "Git & GitHub", "Terminal Commands"]
+      skills: ["Python Environment Setup", "Array Manipulation", "Data Visualization With Matplotlib and Seaborn", "Scikit Learning"]
     },
     {
-      week: "Week 3-5",
-      title: "Backend Development",
-      description: "Build robust APIs and work with databases",
+      week: "Module 2",
+      title: "Classical Machine Learning Algorithms",
+      description: "Regression & Classical Algorithms",
       icon: Database,
-      skills: ["Node.js & Express", "RESTful APIs", "MongoDB/PostgreSQL", "Authentication & Security"]
+      skills: ["Types of Regression", "Naive Bayes Classifier", "Support Vector Machines (SVMs)", "K-means Clustering"]
     },
     {
-      week: "Week 6-8",
-      title: "Full-Stack Integration",
-      description: "Connect frontend and backend into complete applications",
+      week: "Module 3",
+      title: "Advanced and Applied AI",
+      description: "Dive deep into advanced Artificial Intelligence",
       icon: Globe,
-      skills: ["Full-Stack Projects", "Deployment", "Testing", "Performance Optimization"]
-    },
-    {
-      week: "Week 9-12",
-      title: "Advanced Topics & Projects",
-      description: "Tackle complex challenges and build portfolio projects",
-      icon: Zap,
-      skills: ["Advanced React", "AI/ML Integration", "Real-world Projects", "Career Preparation"]
+      skills: ["Bagging methods", "Computer Vision", "The Neuron and Perceptron", "Object Detection Basiss"]
     }
   ];
 
@@ -106,7 +99,7 @@ export default function Curriculum() {
         variants={itemVariants}
       >
         <motion.h2
-          className={`text-3xl font-bold mb-4 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}
+          className={`text-4xl font-bold mb-4 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}
           initial={{ opacity: 0, scale: 0.9 }}
           animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.6, delay: 0.1 }}
@@ -175,7 +168,7 @@ export default function Curriculum() {
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
-                    <h3 className={`text-xl font-semibold mb-1 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{item.title}</h3>
+                    <h3 className={`text-xl mb-1 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{item.title}</h3>
                     <p className="text-[#ef5a3c] font-medium">{item.week}</p>
                   </div>
                   {index < curriculumItems.length - 1 && (

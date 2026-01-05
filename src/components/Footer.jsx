@@ -31,7 +31,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Programs</h4>
+            <h4 className={`text-lg mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Programs</h4>
             <ul className="space-y-2">
               <li><a href="#programs" className={`hover:text-[#EE593B] transition-colors ${isDarkMode ? 'text-neutral-400' : 'text-slate-600'}`}>AI Fundamentals</a></li>
               <li><a href="#programs" className={`hover:text-[#EE593B] transition-colors ${isDarkMode ? 'text-neutral-400' : 'text-slate-600'}`}>Machine Learning</a></li>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Support & Legal */}
           <div>
-            <h4 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Support</h4>
+            <h4 className={`text-lg mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Support</h4>
             <ul className="space-y-2">
               <li><a href="#" className={`hover:text-[#EE593B] transition-colors ${isDarkMode ? 'text-neutral-400' : 'text-slate-600'}`}>Help Center</a></li>
               <li><a href="#" className={`hover:text-[#EE593B] transition-colors ${isDarkMode ? 'text-neutral-400' : 'text-slate-600'}`}>Contact Us</a></li>
@@ -56,7 +56,7 @@ export default function Footer() {
         <div className={`border-t pt-8 ${isDarkMode ? 'border-neutral-800' : 'border-slate-300'}`}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Get in Touch</h4>
+              <h4 className={`text-lg mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Get in Touch</h4>
               <div className="space-y-3">
                 <div className={`flex items-center ${isDarkMode ? 'text-neutral-400' : 'text-slate-600'}`}>
                   <Mail className="w-4 h-4 mr-3" />
@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h4 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Stay Updated</h4>
+              <h4 className={`text-lg mb-4 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Stay Updated</h4>
               <p className={`mb-4 ${isDarkMode ? 'text-neutral-400' : 'text-slate-600'}`}>
                 Get the latest updates on new programs, success stories, and industry insights.
               </p>

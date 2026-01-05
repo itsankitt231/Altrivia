@@ -22,7 +22,7 @@ export default function Feature({ title, children }) {
       <div className="flex justify-center mb-4">
         {getIcon()}
       </div>
-      <h3 className={`text-xl font-semibold mb-2 text-center ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{title}</h3>
+      <h3 className={`text-xl mb-2 text-center ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>{title}</h3>
       <p className={`${isDarkMode ? 'text-neutral-300' : 'text-neutral-600'}`}>{children}</p>
     </div>
   );

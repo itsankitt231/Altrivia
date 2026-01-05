@@ -86,7 +86,7 @@ export default function TestimonialCard({ testimonial, index, gridArea }) {
               transition={{ duration: 0.2 }}
             />
             <div>
-              <p className={`font-semibold ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>
+              <p className={`${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>
                 {testimonial.author}
               </p>
               <p className={`text-sm ${isDarkMode ? 'text-neutral-400' : 'text-neutral-600'}`}>

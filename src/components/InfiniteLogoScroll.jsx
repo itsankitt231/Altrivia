@@ -6,14 +6,16 @@ import netflixLogo from "../logos/icons8-netflix.svg";
 import googleLogo from "../logos/icons8-google.svg";
 import amazonLogo from "../logos/icons8-amazon.svg";
 import appleLogo from "../logos/icons8-apple.svg";
+import mahindralogo from "../logos/mahindra.png";
+import adobelogo from "../logos/adobe-seeklogo.png";
 
 const logos = [
   { name: "Netflix", src: netflixLogo },
   { name: "Google", src: googleLogo },
   { name: "Amazon", src: amazonLogo },
   { name: "Apple", src: appleLogo },
-  { name: "Netflix", src: netflixLogo },
-  { name: "Google", src: googleLogo }
+  { name: "Mahindra", src: mahindralogo },
+  { name: "Adobe", src: adobelogo }
 ];
 
 const InfiniteLogoScroll = () => {

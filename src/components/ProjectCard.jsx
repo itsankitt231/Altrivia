@@ -40,7 +40,7 @@ export default function ProjectCard({ project, index }) {
         </div>
 
         {/* Project Title */}
-        <h3 className={`text-xl font-semibold mb-2 text-center ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>
+        <h3 className={`text-xl mb-2 text-center ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>
           {project.title}
         </h3>
 
@@ -78,22 +78,22 @@ export default function ProjectCard({ project, index }) {
 
         {/* Action Buttons */}
         <div className="flex justify-center space-x-3">
-          <motion.button
+          {/* <motion.button
             className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isDarkMode ? 'bg-[#ef5a3c] text-white hover:bg-[#d14d35]' : 'bg-[#ef5a3c] text-white hover:bg-[#d14d35]'}`}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
             View Demo
-          </motion.button>
-          <motion.button
+          </motion.button> */}
+          {/* <motion.button
             className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isDarkMode ? 'border border-neutral-600 text-neutral-300 hover:bg-neutral-700' : 'border border-gray-300 text-gray-700 hover:bg-gray-50'}`}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <Github className="w-4 h-4 mr-2" />
             Code
-          </motion.button>
+          </motion.button> */}
         </div>
       </div>
     </motion.div>

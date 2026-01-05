@@ -21,7 +21,7 @@ export default function GenAIDemo() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className={`text-4xl md:text-5xl font-semibold leading-tight ${
+          <h2 className={`text-4xl md:text-5xl leading-tight ${
             isDarkMode ? 'text-text-main' : 'text-slate-900'
           }`}>
             Learn Generative AI by <span className="text-[#ef5a3c]">Doing</span>
@@ -88,7 +88,7 @@ export default function GenAIDemo() {
           <p className={`text-lg ${
             isDarkMode ? 'text-text-muted' : 'text-slate-600'
           }`}>
-            You'll build prompts like this by <span className="text-[#ef5a3c]">Week 2</span>
+            You'll build prompts like this by <span className="text-[#ef5a3c]">Module 2</span>
           </p>
 
           <button className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#EE593B] hover:bg-[#EA580C] text-white px-8 py-4 text-base font-medium transition-all duration-300 shadow-lg shadow-[#ef5a3c]/30">
@@ -99,3 +99,5 @@ export default function GenAIDemo() {
     </section>
   );
 }
+
+ 

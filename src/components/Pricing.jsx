@@ -69,8 +69,12 @@ export default function Pricing() {
       }`}
     >
       <div className={`text-center mb-16 ${isVisible ? 'animate-scale-in' : ''}`}>
-        <h2 className={`text-3xl font-bold mb-4 ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>Choose Your Learning Path</h2>
-        <p className={`text-lg ${isDarkMode ? 'text-neutral-300' : 'text-neutral-600'}`}>Flexible pricing options designed to fit your goals and budget</p>
+        <h2 className={`text-4xl md:text-5xl leading-tight mb-6${
+            isDarkMode ? 'text-text-main' : 'text-slate-900'
+          }`}>
+            Choose Your <span className="text-[#EF5A3C]">Learning Path</span>
+          </h2>
+        <p className={`text-lg mt-3 ${isDarkMode ? 'text-neutral-300' : 'text-neutral-600'}`}>Flexible pricing options designed to fit your goals and budget</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -89,7 +93,7 @@ export default function Pricing() {
           >
             {plan.badge && (
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className={`px-4 py-1 text-xs font-semibold rounded-full ${
+                <span className={`px-4 py-1 text-xs rounded-full ${
                   plan.popular
                     ? 'bg-[#ef5a3c] text-white'
                     : 'bg-neutral-800 text-white'
@@ -120,7 +124,7 @@ export default function Pricing() {
             </div>
 
             <button
-              className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
+              className={`w-full py-3 px-6 rounded-lg transition-colors ${
                   plan.popular
                     ? 'bg-[#EE593B] hover:bg-[#EA580C] text-white'
                     : 'bg-neutral-800 hover:bg-neutral-900 text-white'

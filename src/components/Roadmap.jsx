@@ -52,10 +52,10 @@ export default function Roadmap() {
       <div className="w-full px-6">
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className={`text-4xl md:text-5xl font-semibold leading-tight ${
+          <h2 className={`text-4xl md:text-5xl leading-tight ${
             isDarkMode ? 'text-text-main' : 'text-slate-900'
           }`}>
-            What You'll Build in This <span className="text-[#EF5A3C]">Generative AI Course</span>
+            What You'll Build in This <span className="text-[#EF5A3C]">Generative AI Course?</span>
           </h2>
           <p className={`mt-5 text-lg ${
             isDarkMode ? 'text-text-muted' : 'text-slate-600'
@@ -89,7 +89,7 @@ export default function Roadmap() {
 
                 {/* Content */}
                 <div className="mt-4">
-                  <h3 className={`text-xl font-semibold mb-3 transition-colors ${
+                  <h3 className={`text-xl mb-3 transition-colors ${
                     isDarkMode ? 'text-text-main group-hover:text-[#ef5a3c]' : 'text-slate-900 group-hover:text-[#ef5a3c]'
                   }`}>
                     {item.title}
@@ -115,7 +115,7 @@ export default function Roadmap() {
 
         {/* Final CTA */}
         <div className="mt-20 text-center">
-          <h3 className={`text-3xl font-semibold ${
+          <h3 className={`text-3xl ${
             isDarkMode ? 'text-text-main' : 'text-slate-900'
           }`}>
             By the end, you'll have a <span className="text-[#ef5a3c]">portfolio-ready GenAI project</span>

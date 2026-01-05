@@ -75,10 +75,18 @@ export default function Testimonials() {
         animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        <h2 className={`text-3xl font-bold mb-4 ${isVisible ? 'animate-scale-in' : ''} ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>
-          Hear from ALtrivia
-        </h2>
-        <p className={`text-lg ${isDarkMode ? 'text-neutral-300' : 'text-neutral-600'}`}>
+        <h2 className={`text-4xl md:text-5xl leading-tight mb-4${
+            isDarkMode ? 'text-text-main' : 'text-slate-900'
+          }`}>
+            Hear From <span className="text-[#EF5A3C]">Altrivians</span>
+          </h2>
+        
+        {/* <h2 className={`text-3xl font-bold mb-4 ${isVisible ? 'animate-scale-in' : ''} ${isDarkMode ? 'text-neutral-100' : 'text-neutral-800'}`}>
+          Hear from
+        </h2> <h2 className={`text-3xl font-bold mb-4 ${isVisible ? 'animate-scale-in' : ''} ${isDarkMode ? 'text-neutral-100' : 'text-[#EF5A3C]'}`}>
+          Altrivia
+        </h2>  */}
+        <p className={`text-lg mt-3 ${isDarkMode ? 'text-neutral-300' : 'text-neutral-600'}`}>
           Find out what our students have to say about this
         </p>
       </motion.div>

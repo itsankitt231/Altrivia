@@ -10,7 +10,7 @@ export default function RoadmapItem({ week, title, description, buildType }) {
           {week}
         </span>
 
-        <h3 className="mt-2 text-2xl font-semibold text-text-main">
+        <h3 className="mt-2 text-2xl text-text-main">
           {title}
         </h3>
 
